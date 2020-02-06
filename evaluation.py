@@ -10,4 +10,3 @@ im = Image.open("./images/7949.png")
 im2arr = np.array(im).reshape((1, 28, 28, 1))
 with graph.as_default():
      a = np.argmax(model.predict(im2arr))
-
