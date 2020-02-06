@@ -5,7 +5,6 @@ from keras.layers import Conv2D, MaxPooling2D
 from keras.layers.normalization import BatchNormalization
 from keras.utils import np_utils
 from keras import backend as K
-import matplotlib.pyplot as plt
 import numpy as np
 
 K.set_image_dim_ordering('tf')
